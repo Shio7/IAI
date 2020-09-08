@@ -17,10 +17,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/main.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/waifu2x-chainer-master/waifu2x.py" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.waifu2x">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Vixby" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -42,6 +42,31 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="waifu2x" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="Vixby" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\Shio\Desktop\Shio P\Github\Vixby\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/waifu2x-chainer-master" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/waifu2x-chainer-master/waifu2x.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.main" />
+      <item itemvalue="Python.waifu2x" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -55,17 +80,17 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="254" y="85" width="1092" height="715" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599554352678">
+    <state x="254" y="85" width="1092" height="740" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599554532763">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="254" y="85" width="1092" height="715" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1600.860@0.0.1600.860" timestamp="1599554352678" />
-    <state x="580" y="197" key="FileChooserDialogImpl" timestamp="1599554351211">
+    <state x="254" y="85" width="1092" height="740" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1600.860@0.0.1600.860" timestamp="1599554532763" />
+    <state x="580" y="197" key="FileChooserDialogImpl" timestamp="1599554531260">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="580" y="197" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1599554351211" />
-    <state x="477" y="68" key="SettingsEditor" timestamp="1599554415145">
+    <state x="580" y="197" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1599554531260" />
+    <state x="477" y="68" key="SettingsEditor" timestamp="1599554503729">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="477" y="68" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1599554415145" />
+    <state x="477" y="68" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1599554503729" />
   </component>
 </project>

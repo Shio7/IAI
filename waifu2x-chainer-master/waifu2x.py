@@ -30,7 +30,6 @@ def denoise_image(cfg, src, model):
         dst.putalpha(alpha)
     return dst
 
-
 def upscale_image(cfg, src, scale_model, alpha_model=None):
     dst, alpha = split_alpha(src, scale_model)
     for i in range(int(np.ceil(np.log2(cfg.scale_ratio)))):
