@@ -49,7 +49,7 @@ def valid_inner_epoch(model, data_queue, batch_size):
             batch_x = xp.array(valid_x[local_perm], dtype=np.float32) / 255
             batch_y = xp.array(valid_y[local_perm], dtype=np.float32) / 255
             pred = model(batch_x)
-            score = iproc.clipped_psnr(pred.data, batch_y)
+            score = iproc.clipped_psnr(pred.data, batch_y, 0., 1.)
             sum_score += float(score) * len(batch_x)
     return sum_score / len(valid_x)
 
