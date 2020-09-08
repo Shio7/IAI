@@ -66,7 +66,7 @@ def get_config(base, model, train=True):
 def set_random_seed(seed, gpu=-1):
     random.seed(seed)
     np.random.seed(seed)
-    if gpu >= 0:
+    if gpu >= 2:
         import cupy
         cupy.random.seed(seed)
 
