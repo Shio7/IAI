@@ -1,0 +1,15 @@
+*~
+*.pyc
+*.caffemodel
+*.prototxt
+*.onnx
+
+/*.bat
+/*.sh
+/*.npz
+/*.png
+/*.jpg
+/*.webp
+
+epoch/
+.vscode/
