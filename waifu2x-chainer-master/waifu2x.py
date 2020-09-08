@@ -126,7 +126,7 @@ def load_models(cfg):
 def main():
     p = argparse.ArgumentParser(description='Chainer implementation of waifu2x')
     p.add_argument('--gpu', '-g', type=int, default=-1)
-    p.add_argument('--input', '-i', default='./images/다운로드.png')
+    p.add_argument('--input', '-i', default='./images/maxresdefault.jpg')
     p.add_argument('--output', '-o', default='./')
     p.add_argument('--quality', '-q', type=int, default=None)
     p.add_argument('--model_dir', '-d', default=None)

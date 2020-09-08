@@ -7,7 +7,7 @@ import numpy as np
 from PIL import Image
 
 try:
-    import wand.image
+    from wand.image import Image as wandimage
 except ImportError:
     pass
 
@@ -64,12 +64,12 @@ def array_to_wand(src):
     with io.BytesIO() as buf:
         tmp = Image.fromarray(src).convert('RGB')
         tmp.save(buf, 'PNG', compress_level=0)
-        dst = wand.image.Image(blob=buf.getvalue())
+        dst = wandimage(blob=buf.getvalue())
     return dst
 
 
 def wand_to_array(src):
-    assert isinstance(src, wand.image.Image)
+    assert isinstance(src, wandimage)
     with io.BytesIO(src.make_blob('PNG')) as buf:
         tmp = Image.open(buf).convert('RGB')
         dst = np.array(tmp, dtype=np.uint8)
@@ -97,7 +97,7 @@ def jpeg(src, sampling_factor='1x1,1x1,1x1', quality=90):
     src.format = 'jpg'
     src.compression_quality = quality
     src.options['jpeg:sampling-factor'] = sampling_factor
-    return wand.image.Image(blob=src.make_blob())
+    return wandimage(blob=src.make_blob())
 
 
 def pcacov(x):

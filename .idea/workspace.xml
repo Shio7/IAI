@@ -1,5 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="1061d6e5-f549-4232-ada9-9ad83ad073c7" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,10 +35,31 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/waifu2x-chainer-master/train.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/waifu2x-chainer-master/lib/iproc.py" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.train">
+  <component name="RunManager" selected="Python.iproc">
+    <configuration name="iproc" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="Vixby" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\Shio\Desktop\Shio P\Github\Vixby\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/waifu2x-chainer-master/lib" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/waifu2x-chainer-master/lib/iproc.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Vixby" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -70,7 +109,7 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="C:\Users\Shio\anaconda3\python.exe" />
+      <option name="SDK_HOME" value="C:\Users\Shio\Desktop\Shio P\Github\Vixby\venv\Scripts\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/waifu2x-chainer-master" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -87,6 +126,7 @@
     <list>
       <item itemvalue="Python.main" />
       <item itemvalue="Python.waifu2x" />
+      <item itemvalue="Python.iproc" />
       <item itemvalue="Python.train" />
     </list>
   </component>
@@ -101,34 +141,45 @@
     </task>
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
-    <state x="254" y="85" width="1092" height="765" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599565263825">
+    <state x="254" y="70" width="1092" height="790" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599568270556">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="254" y="85" width="1092" height="765" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1600.860@0.0.1600.860" timestamp="1599565263825" />
-    <state x="580" y="197" key="FileChooserDialogImpl" timestamp="1599555420638">
+    <state x="254" y="70" width="1092" height="790" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1600.860@0.0.1600.860" timestamp="1599568270556" />
+    <state x="580" y="197" key="FileChooserDialogImpl" timestamp="1599568268706">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="580" y="197" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1599555420638" />
-    <state width="1579" height="222" key="GridCell.Tab.0.bottom" timestamp="1599558315294">
+    <state x="580" y="197" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1599568268706" />
+    <state width="1579" height="222" key="GridCell.Tab.0.bottom" timestamp="1599568675485">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1579" height="222" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1599558315294" />
-    <state width="1579" height="222" key="GridCell.Tab.0.center" timestamp="1599558315294">
+    <state width="1579" height="222" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1599568675485" />
+    <state width="1579" height="222" key="GridCell.Tab.0.center" timestamp="1599568675484">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1579" height="222" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1599558315294" />
-    <state width="1579" height="222" key="GridCell.Tab.0.left" timestamp="1599558315294">
+    <state width="1579" height="222" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1599568675484" />
+    <state width="1579" height="222" key="GridCell.Tab.0.left" timestamp="1599568675484">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1579" height="222" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1599558315294" />
-    <state width="1579" height="222" key="GridCell.Tab.0.right" timestamp="1599558315294">
+    <state width="1579" height="222" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1599568675484" />
+    <state width="1579" height="222" key="GridCell.Tab.0.right" timestamp="1599568675485">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1579" height="222" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1599558315294" />
-    <state x="477" y="68" key="SettingsEditor" timestamp="1599565279456">
+    <state width="1579" height="222" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1599568675485" />
+    <state x="403" y="69" key="SettingsEditor" timestamp="1599568252554">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="477" y="68" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1599565279456" />
+    <state x="403" y="69" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1599568252554" />
   </component>
 </project>
