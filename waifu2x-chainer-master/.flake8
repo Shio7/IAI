@@ -1,3 +1,0 @@
-[flake8]
-filename = *.py
-ignore = H903

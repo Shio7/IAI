@@ -25,6 +25,13 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -35,31 +42,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/waifu2x-chainer-master/lib/iproc.py" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/trainer.py" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
-  <component name="RunManager" selected="Python.iproc">
-    <configuration name="iproc" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
-      <module name="Vixby" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\Users\Shio\Desktop\Shio P\Github\Vixby\venv\Scripts\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/waifu2x-chainer-master/lib" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/waifu2x-chainer-master/lib/iproc.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.trainer">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Vixby" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -81,7 +67,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="train" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+    <configuration name="trainer" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Vixby" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -89,32 +75,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="C:\Users\Shio\anaconda3\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/waifu2x-chainer-master" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/waifu2x-chainer-master/train.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="waifu2x" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
-      <module name="Vixby" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\Users\Shio\Desktop\Shio P\Github\Vixby\venv\Scripts\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/waifu2x-chainer-master" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/waifu2x-chainer-master/waifu2x.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/trainer.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -125,9 +90,7 @@
     </configuration>
     <list>
       <item itemvalue="Python.main" />
-      <item itemvalue="Python.waifu2x" />
-      <item itemvalue="Python.iproc" />
-      <item itemvalue="Python.train" />
+      <item itemvalue="Python.trainer" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -151,35 +114,36 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="254" y="70" width="1092" height="790" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599568270556">
+    <state x="254" y="20" width="1092" height="840" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599612571224">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="254" y="70" width="1092" height="790" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1600.860@0.0.1600.860" timestamp="1599568270556" />
-    <state x="580" y="197" key="FileChooserDialogImpl" timestamp="1599568268706">
+    <state x="254" y="20" width="1092" height="840" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1600.860@0.0.1600.860" timestamp="1599612571224" />
+    <state x="580" y="197" key="FileChooserDialogImpl" timestamp="1599612570111">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="580" y="197" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1599568268706" />
-    <state width="1579" height="222" key="GridCell.Tab.0.bottom" timestamp="1599569435565">
+    <state x="580" y="197" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1599612570111" />
+    <state width="1579" height="155" key="GridCell.Tab.0.bottom" timestamp="1599612897268">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1579" height="222" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1599569435565" />
-    <state width="1579" height="222" key="GridCell.Tab.0.center" timestamp="1599569435565">
+    <state width="1579" height="155" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1599612897268" />
+    <state width="1579" height="155" key="GridCell.Tab.0.center" timestamp="1599612897268">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1579" height="222" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1599569435565" />
-    <state width="1579" height="222" key="GridCell.Tab.0.left" timestamp="1599569435565">
+    <state width="1579" height="155" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1599612897268" />
+    <state width="1579" height="155" key="GridCell.Tab.0.left" timestamp="1599612897268">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1579" height="222" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1599569435565" />
-    <state width="1579" height="222" key="GridCell.Tab.0.right" timestamp="1599569435565">
+    <state width="1579" height="155" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1599612897268" />
+    <state width="1579" height="155" key="GridCell.Tab.0.right" timestamp="1599612897268">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1579" height="222" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1599569435565" />
-    <state x="403" y="69" key="SettingsEditor" timestamp="1599568252554">
+    <state width="1579" height="155" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1599612897268" />
+    <state x="403" y="69" key="SettingsEditor" timestamp="1599610631481">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="403" y="69" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1599568252554" />
+    <state x="403" y="69" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1599610631481" />
   </component>
 </project>
