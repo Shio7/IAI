@@ -30,7 +30,8 @@ for j in range(len(files)):
     i = 0
 
     # 이 for는 무한으로 반복되기 때문에 우리가 원하는 반복횟수를 지정하여, 지정된 반복횟수가 되면 빠져나오도록 해야합니다.
-    for batch in data_aug_gen.flow(x, batch_size=1, save_to_dir='./png_data_resized', save_prefix='d', save_format='png'):
+    for batch in data_aug_gen.flow(x, batch_size=1, save_to_dir='./png_data_resized', save_prefix='shio_p_dset', save_format='png'):
         i += 1
-        if i > 30:
+        print(str(i) +" gen")
+        if i > 15:
             break
