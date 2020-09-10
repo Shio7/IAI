@@ -42,7 +42,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/imageGAN.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunManager" selected="Python.imageGAN">
@@ -53,7 +53,7 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="C:\Users\Shio\Desktop\Shio P\Github\Vixby\venv\Scripts\python.exe" />
+      <option name="SDK_HOME" value="C:\Users\Shio\Desktop\Shio P\Github\IAI\venv\Scripts\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -74,33 +74,12 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="C:\Users\Shio\Desktop\Shio P\Github\Vixby\venv\Scripts\python.exe" />
+      <option name="SDK_HOME" value="C:\Users\Shio\Desktop\Shio P\Github\IAI\venv\Scripts\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/imageGAN.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
-      <module name="Vixby" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\Users\Shio\Desktop\Shio P\Github\Vixby\venv\Scripts\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -116,7 +95,7 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="C:\Users\Shio\Desktop\Shio P\Github\Vixby\venv\Scripts\python.exe" />
+      <option name="SDK_HOME" value="C:\Users\Shio\Desktop\Shio P\Github\IAI\venv\Scripts\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -137,7 +116,7 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="C:\Users\Shio\Desktop\Shio P\Github\Vixby\venv\Scripts\python.exe" />
+      <option name="SDK_HOME" value="C:\Users\Shio\Desktop\Shio P\Github\IAI\venv\Scripts\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -152,10 +131,9 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.main" />
-      <item itemvalue="Python.resize" />
       <item itemvalue="Python.RGBA2RGB" />
       <item itemvalue="Python.imageGAN" />
+      <item itemvalue="Python.resize" />
       <item itemvalue="Python.utils" />
     </list>
   </component>
@@ -183,37 +161,37 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="254" y="0" width="1092" height="860" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599653579502">
+    <state x="254" y="0" width="1092" height="860" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599654372058">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="254" y="0" width="1092" height="860" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1600.860@0.0.1600.860" timestamp="1599653579502" />
+    <state x="254" y="0" width="1092" height="860" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1600.860@0.0.1600.860" timestamp="1599654372058" />
     <state x="554" y="230" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1599626482351">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="554" y="230" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1600.860@0.0.1600.860" timestamp="1599626482351" />
-    <state x="580" y="197" key="FileChooserDialogImpl" timestamp="1599653578384">
+    <state x="580" y="197" key="FileChooserDialogImpl" timestamp="1599655676891">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="580" y="197" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1599653578384" />
-    <state width="1579" height="219" key="GridCell.Tab.0.bottom" timestamp="1599653580479">
+    <state x="580" y="197" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1599655676891" />
+    <state width="1579" height="218" key="GridCell.Tab.0.bottom" timestamp="1599654493642">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1579" height="219" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1599653580479" />
-    <state width="1579" height="219" key="GridCell.Tab.0.center" timestamp="1599653580479">
+    <state width="1579" height="218" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1599654493642" />
+    <state width="1579" height="218" key="GridCell.Tab.0.center" timestamp="1599654493642">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1579" height="219" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1599653580479" />
-    <state width="1579" height="219" key="GridCell.Tab.0.left" timestamp="1599653580479">
+    <state width="1579" height="218" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1599654493642" />
+    <state width="1579" height="218" key="GridCell.Tab.0.left" timestamp="1599654493642">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1579" height="219" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1599653580479" />
-    <state width="1579" height="219" key="GridCell.Tab.0.right" timestamp="1599653580479">
+    <state width="1579" height="218" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1599654493642" />
+    <state width="1579" height="218" key="GridCell.Tab.0.right" timestamp="1599654493642">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1579" height="219" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1599653580479" />
-    <state x="403" y="69" key="SettingsEditor" timestamp="1599632563050">
+    <state width="1579" height="218" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1599654493642" />
+    <state x="403" y="69" key="SettingsEditor" timestamp="1599694941981">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="403" y="69" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1599632563050" />
+    <state x="403" y="69" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1599694941981" />
   </component>
 </project>
