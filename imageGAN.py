@@ -11,7 +11,7 @@ slim = tf.contrib.slim
 HEIGHT, WIDTH, CHANNEL = 128, 128, 3
 BATCH_SIZE = 64
 EPOCH = 1001
-version = 'newAvatar'
+version = 'newImage'
 newPoke_path = './' + version
 
 
