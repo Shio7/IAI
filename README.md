@@ -1,4 +1,4 @@
-![Vixvy_logo](https://github.com/Shio7/Vixby/blob/master/g-images/vixby_logo_1000x.png)
+![Vixvy_logo](https://github.com/Shio7/Vixby/blob/master/g-images/iai_logo.png)
 # IAI
 Refresh the video with a different feel!
 
