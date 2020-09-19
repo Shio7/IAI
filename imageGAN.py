@@ -72,20 +72,16 @@ def generator(input, random_dim, is_train, reuse=False):
         b1 = tf.get_variable('b1', shape=[c4 * s4 * s4], dtype=tf.float32,
                              initializer=tf.constant_initializer(0.0))
         flat_conv1 = tf.add(tf.matmul(input, w1), b1, name='flat_conv1')
-        # Convolution, bias, activation, repeat!
         conv1 = tf.reshape(flat_conv1, shape=[-1, s4, s4, c4], name='conv1')
         bn1 = tf.contrib.layers.batch_norm(conv1, is_training=is_train, epsilon=1e-5, decay=0.9,
                                            updates_collections=None, scope='bn1')
         act1 = tf.nn.relu(bn1, name='act1')
-        # 8*8*256
-        # Convolution, bias, activation, repeat!
         conv2 = tf.layers.conv2d_transpose(act1, c8, kernel_size=[5, 5], strides=[2, 2], padding="SAME",
                                            kernel_initializer=tf.truncated_normal_initializer(stddev=0.02),
                                            name='conv2')
         bn2 = tf.contrib.layers.batch_norm(conv2, is_training=is_train, epsilon=1e-5, decay=0.9,
                                            updates_collections=None, scope='bn2')
         act2 = tf.nn.relu(bn2, name='act2')
-        # 16*16*128
         conv3 = tf.layers.conv2d_transpose(act2, c16, kernel_size=[5, 5], strides=[2, 2], padding="SAME",
                                            kernel_initializer=tf.truncated_normal_initializer(stddev=0.02),
                                            name='conv3')
