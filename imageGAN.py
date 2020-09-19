@@ -88,14 +88,12 @@ def generator(input, random_dim, is_train, reuse=False):
         bn3 = tf.contrib.layers.batch_norm(conv3, is_training=is_train, epsilon=1e-5, decay=0.9,
                                            updates_collections=None, scope='bn3')
         act3 = tf.nn.relu(bn3, name='act3')
-        # 32*32*64
         conv4 = tf.layers.conv2d_transpose(act3, c32, kernel_size=[5, 5], strides=[2, 2], padding="SAME",
                                            kernel_initializer=tf.truncated_normal_initializer(stddev=0.02),
                                            name='conv4')
         bn4 = tf.contrib.layers.batch_norm(conv4, is_training=is_train, epsilon=1e-5, decay=0.9,
                                            updates_collections=None, scope='bn4')
         act4 = tf.nn.relu(bn4, name='act4')
-        # 64*64*32
         conv5 = tf.layers.conv2d_transpose(act4, c64, kernel_size=[5, 5], strides=[2, 2], padding="SAME",
                                            kernel_initializer=tf.truncated_normal_initializer(stddev=0.02),
                                            name='conv5')
